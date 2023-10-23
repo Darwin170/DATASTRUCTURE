@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pefecta_aparel.MainController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ScrollPane layoutX="-3.0" layoutY="-2.0" prefHeight="409.0" prefWidth="607.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="410.0" prefWidth="987.0">
+                           <children>
+                              <Pane layoutX="14.0" layoutY="21.0" prefHeight="200.0" prefWidth="183.0">
+                                 <children>
+                                    <ImageView fx:id="clrshirt1" fitHeight="136.0" fitWidth="145.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../image/Acid%20Black.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="65.0" layoutY="136.0" onDragDetected="#Designpage" text="Acid Black" />
+                                    <Button fx:id="tshirt1" layoutX="66.0" layoutY="161.0" mnemonicParsing="false" onAction="#Designpage" text="Select" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="197.0" layoutY="21.0" prefHeight="200.0" prefWidth="183.0">
+                                 <children>
+                                    <ImageView fx:id="clrshirt2" fitHeight="136.0" fitWidth="145.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../image/Acid%20Blue.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="65.0" layoutY="136.0" text="Acid Blue" />
+                                    <Button fx:id="tshirt2" layoutX="66.0" layoutY="161.0" mnemonicParsing="false" onAction="#Designpage" text="Select" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="387.0" layoutY="20.0" prefHeight="200.0" prefWidth="183.0">
+                                 <children>
+                                    <ImageView fx:id="clrshirt3" fitHeight="136.0" fitWidth="145.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../image/Acid%20Dye%20Green.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="51.0" layoutY="136.0" text="Acid Dye Green" />
+                                    <Button fx:id="tshirt3" layoutX="66.0" layoutY="161.0" mnemonicParsing="false" onAction="#Designpage" text="Select" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="14.0" layoutY="221.0" prefHeight="200.0" prefWidth="183.0">
+                                 <children>
+                                    <ImageView fx:id="clrshirt4" fitHeight="136.0" fitWidth="145.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../image/Acid%20Dye%20Violet.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="51.0" layoutY="136.0" text="Acid Dye Violet" />
+                                    <Button fx:id="tshirt4" layoutX="66.0" layoutY="161.0" mnemonicParsing="false" onAction="#Designpage" text="Select" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="197.0" layoutY="221.0" prefHeight="200.0" prefWidth="183.0">
+                                 <children>
+                                    <ImageView fx:id="clrshirt5" fitHeight="136.0" fitWidth="145.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../image/Acid%20Grey.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="65.0" layoutY="136.0" text="Acid Gray" />
+                                    <Button fx:id="tshirt5" layoutX="66.0" layoutY="161.0" mnemonicParsing="false" onAction="#Designpage" text="Select" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="387.0" layoutY="221.0" prefHeight="200.0" prefWidth="183.0">
+                                 <children>
+                                    <ImageView fx:id="clrshirt6" fitHeight="136.0" fitWidth="145.0" layoutX="22.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../image/Acid%20Lavender%20.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="55.0" layoutY="136.0" text="Acid Lavender" />
+                                    <Button fx:id="tshirt6" layoutX="66.0" layoutY="161.0" mnemonicParsing="false" onAction="#Designpage" text="Select" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="589.0" layoutY="26.0" prefHeight="200.0" prefWidth="183.0">
+                                 <children>
+                                    <ImageView fx:id="clrshirt7" fitHeight="136.0" fitWidth="145.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../image/Acid%20Orange.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="55.0" layoutY="136.0" text="Acid Orange" />
+                                    <Button fx:id="tshirt7" layoutX="66.0" layoutY="161.0" mnemonicParsing="false" onAction="#Designpage" text="Select" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="570.0" layoutY="216.0" prefHeight="200.0" prefWidth="183.0">
+                                 <children>
+                                    <ImageView fx:id="clrshirt8" fitHeight="136.0" fitWidth="145.0" layoutX="22.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../image/Acid%20Purple.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="55.0" layoutY="136.0" text="Acid Purple" />
+                                    <Button fx:id="tshirt8" layoutX="66.0" layoutY="161.0" mnemonicParsing="false" onAction="#Designpage" text="Select" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="763.0" layoutY="16.0" prefHeight="200.0" prefWidth="183.0">
+                                 <children>
+                                    <ImageView fx:id="clrshirt9" fitHeight="136.0" fitWidth="145.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../image/Acid%20Red.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="69.0" layoutY="138.0" text="Acid Red" />
+                                    <Button fx:id="tshirt9" layoutX="66.0" layoutY="161.0" mnemonicParsing="false" onAction="#Designpage" text="Select" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</StackPane>

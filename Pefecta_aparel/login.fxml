@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="267.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pefecta_aparel.loginController">
+   <children>
+      <AnchorPane prefHeight="367.0" prefWidth="454.0">
+         <children>
+            <BorderPane layoutX="-30.0" layoutY="100.0" prefHeight="393.0" prefWidth="595.0" AnchorPane.bottomAnchor="-18.0" AnchorPane.leftAnchor="-30.0" AnchorPane.rightAnchor="-119.0" AnchorPane.topAnchor="0.0">
+               <top>
+                  <AnchorPane fx:id="MAIN" prefHeight="120.0" prefWidth="549.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane fx:id="LOGINFORM" layoutX="27.0" layoutY="7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="361.0" prefWidth="272.0">
+                           <children>
+                              <ImageView fx:id="imgLogin" fitHeight="358.0" fitWidth="283.0" layoutX="1.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/LoginTab.PNG" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="BTNLog" layoutX="74.0" layoutY="275.0" mnemonicParsing="false" onAction="#loginAccount" text="SIGN IN" />
+                              <PasswordField fx:id="Password" layoutX="74.0" layoutY="233.0" onAction="#loginAccount" promptText="password" />
+                              <TextField fx:id="UserN" layoutX="74.0" layoutY="197.0" onAction="#loginAccount" promptText="username" />
+                              <Button fx:id="createacc" layoutX="162.0" layoutY="275.0" mnemonicParsing="false" onAction="#switchForm" text="SIGN UP" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="SIGNUPFORM" layoutX="27.0" layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="356.0" prefWidth="270.0" visible="false">
+                           <children>
+                              <ImageView fx:id="imgSignup" fitHeight="358.0" fitWidth="283.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/LoginTab.PNG" />
+                                 </image>
+                              </ImageView>
+                              <PasswordField fx:id="passwordReg" alignment="CENTER_RIGHT" layoutX="70.0" layoutY="184.0" onAction="#registerAccount" promptText="ENTER A PASSWORD" />
+                              <TextField fx:id="USERnameREG" alignment="CENTER_RIGHT" layoutX="70.0" layoutY="144.0" onAction="#registerAccount" promptText="ENTER A USERNAME" />
+                              <Button fx:id="createacc_Btn" alignment="CENTER_RIGHT" layoutX="115.0" layoutY="247.0" mnemonicParsing="false" onAction="#registerAccount" text="CREATE" />
+                              <Button fx:id="Btnsign" alignment="CENTER_RIGHT" layoutX="75.0" layoutY="307.0" mnemonicParsing="false" onAction="#switchForm" text="Already have account" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </top>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
